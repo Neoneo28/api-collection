@@ -4,6 +4,7 @@ fun main() {
    val Joao = Funcionario("Joao",2000.0,"CLT")
     val Pedro = Funcionario("Pedro",1500.0,"PJ")
     val Maria = Funcionario("Maria",4000.0,"CLT")
+
     val Funcionarios = listOf(Joao, Pedro, Maria)
 
     Funcionarios.forEach{ println(it) }
